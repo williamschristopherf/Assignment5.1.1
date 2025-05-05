@@ -17,8 +17,9 @@
     }
     return original == reversed;
 }
-
-Console.WriteLine(IsNumPalinDrome(121));
-Console.WriteLine(IsNumPalinDrome(123451));
-Console.WriteLine(IsNumPalinDrome(123454321));
-Console.WriteLine(IsNumPalinDrome(-121));
+Console.WriteLine("Assignment 5.1.1");
+Console.WriteLine();
+Console.WriteLine($"121: {IsNumPalinDrome(121)}");
+Console.WriteLine($"121: {IsNumPalinDrome(123451)}");
+Console.WriteLine($"121: {IsNumPalinDrome(123454321)}");
+Console.WriteLine($"-121: {IsNumPalinDrome(-121)}");
